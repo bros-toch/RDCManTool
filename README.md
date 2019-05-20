@@ -16,3 +16,22 @@ What it does is to descrypt saved passwords using current pc's certificate and e
 ```CMD> RDCManTool.Console.exe --in "RDC.encrypted.rdg" --out "RDC.rdg" --key "MyStrongEncryptedKey" --import```
 
 It will descrypt the passwords using the key used in previous export and then use the current pc's certiciate to encrypt password to be readable by the application.
+
+## Options
+```
+  -v, --verbose    Set output to verbose messages.
+
+  --in             Required. Input file full path.
+
+  --out            Required. Output file full path.
+
+  -i, --import     Import from another machine.
+
+  -e, --export     Export to another machine.
+
+  -k, --key        Required. Key use for encrypting and decrypting.
+
+  --help           Display this help screen.
+
+  --version        Display version information.
+```
