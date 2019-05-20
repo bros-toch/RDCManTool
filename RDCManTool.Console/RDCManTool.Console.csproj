@@ -52,8 +52,5 @@
       <Name>RDCManTool</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include=".gitignore" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
