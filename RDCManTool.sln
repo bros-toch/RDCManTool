@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDCManTool.Console", "RDCManTool.Console\RDCManTool.Console.csproj", "{FFF098F4-8D91-4002-B4F6-568C9A555ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDCManTool", "RDCManTool\RDCManTool.csproj", "{1D2111F0-B0D3-4545-915D-3CDD210A10E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF098F4-8D91-4002-B4F6-568C9A555ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF098F4-8D91-4002-B4F6-568C9A555ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF098F4-8D91-4002-B4F6-568C9A555ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF098F4-8D91-4002-B4F6-568C9A555ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2111F0-B0D3-4545-915D-3CDD210A10E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2111F0-B0D3-4545-915D-3CDD210A10E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2111F0-B0D3-4545-915D-3CDD210A10E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2111F0-B0D3-4545-915D-3CDD210A10E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {172A9C23-7D69-42B9-BF7E-3E5EE9A21244}
+	EndGlobalSection
+EndGlobal
